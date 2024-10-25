@@ -1,0 +1,94 @@
+body{ 
+	background-color: #D0B8A8;
+	color: black;
+	font-family: Times, serif ;
+	font-size: 20px ;
+	text-align : center;
+}
+
+h1{
+	background-color: #D0B8A8;
+	color: #C5705D;
+	font-family: Times, serif ;
+	font-size: 50px ;
+	font-weight: 100;
+	letter-spacing: 7px;
+	}
+
+
+h2 {
+	background-color: #D0B8A8;
+	color: #C5705D;
+	font-family: Times, serif ;
+	font-size: 30px;
+	text-transform: uppercase;
+}
+
+a { text-decoration: none;
+	color: purple ; 
+	}
+
+a:hover { color: purple}
+
+#Myrtille { 
+	width: 250px; 
+	border-radius: 50%;
+	border : 3px solid #C5705D; 
+}
+
+div { 
+	background: #DFD3C3; 
+	padding: 60px;
+	margin: 50px; 
+	border-radius: 8px;
+	box-shadow: 0px 10px 30px rgba(197,112,93,0.2)
+}
+
+
+.btn-yellow { 
+	background-color: #ffdb6e;
+	color: orange;
+	padding: 15px 20px;
+	border-radius: 8px;
+ }
+
+.list-inline {  
+	list-style: none;
+	padding-left: Opx;
+ }
+
+.list-iline li {  
+	display: inline;
+	padding: 10px;
+ }
+	
+
+#introduction p {  
+	margin-bottom: 50px;
+ }
+
+
+
+ @media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+
+
+
+
+	
+
+
